@@ -1,21 +1,32 @@
-# Byte-compiled / optimized / DLL files
+*.pyc
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Local configuration file (Important to keep your SECRET_KEY safe)
-.env
 db.sqlite3
+local_settings.py
 
-# Virtual Environments
-venv/
+.env
+.venv
 env/
+venv/
 ENV/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+include/
+share/
+spec/
 
-# Media and Static
-media/
+media/*
+!media/.gitkeep
+
 staticfiles/
 
-# OS generated files
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+*.log
